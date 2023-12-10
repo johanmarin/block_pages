@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Courier Prime' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,90,700;0,95,380;1,90,700;1,95,380&display=swap" rel="stylesheet">
+    <title>Bastard.live</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            background-image: url('img/heracles.png');
+            background-size: cover;
+            background-position: center;
+            text-align: left;
+        }
+
+        h1 {
+            font-style: normal; 
+            font-family: sans-serif;
+            letter-spacing: -.04em;
+            margin-top: 7rem;
+            margin-left: 2rem;
+            margin-bottom: 0.25em;
+            font-size: 4rem;
+            font-weight: 600;
+            line-height: 1;
+        }
+
+        p {
+            font-family: 'Courier Prime';
+            font-size: 1.2rem;
+            margin-top: 4rem;
+            margin-left: 2rem;
+            margin-bottom: 5rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: none; /* Hide the image on larger screens */
+        }
+
+        @media screen and (min-width: 600px) {
+            body {
+                background-attachment: fixed;
+            }
+
+            img {
+                display: block; /* Show the image on larger screens */
+                float: right;
+                margin: 20px;
+            }
+        }
+
+        @media screen and (max-width: 599px) {
+            body {
+                background-attachment: scroll; /* Allow scrolling for the background */
+                background-size: device 100%; /* Apply a zoom effect */
+                background-position: 100% 0; /* Use upper-right part of the image */
+                background-image: url('img/mobile.png');
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>𝕭𝖆𝖘𝖙𝖆𝖗𝖉</h1>
+    <p>Piensalo bien gastar tu tiempo <br> acá te alejá de tus objetivos</p>
+</body>
+
+</html>
